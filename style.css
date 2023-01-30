@@ -137,19 +137,18 @@ p {
   border-radius: 50px;
 }
 
-
-
-
-
-
-
-
-
-
 .attribution { 
   font-size: 11px; text-align: center; 
   color: hsl(0, 0%, 100%);
 }
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width:300px) {
+
+	.container {
+		width: 400px;
+	}
+
 }
